@@ -3,6 +3,7 @@ package com.cesar.spring_security_1er_implementacion.model;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "users")
 public class User {
 
     @Id
